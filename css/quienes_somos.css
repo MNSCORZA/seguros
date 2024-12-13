@@ -1,0 +1,60 @@
+.quienesSomos {
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+margin-bottom: 150px;
+}
+
+
+.somos{
+  max-width: 50%;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 8px 8px 16px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #c8c8c8, #a6a6a6, #666666);
+  font-family: "Raleway", sans-serif;
+  margin-top: 50px;
+  padding: 5px;
+ 
+}
+
+.tarjeta{
+  width: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ margin-left: 200px;
+ font-family: "Raleway", sans-serif;
+}
+
+
+@media (max-width: 768px) {
+  /* Styles for smaller screens */
+  .tarjeta {
+    width: 100%; /* Set width to 100% for smaller screens */
+    margin: 15px; /* Adjust margins for smaller screens */
+  }
+  .tarjeta1{
+    justify-content: center;
+  }
+  .quienesSomos {  /* Target parent container for better layout */
+   display: flex; /* Make cards stack vertically */
+    flex-wrap: wrap; /* Allow cards to wrap to next line */
+    justify-content: center; /* Center cards horizontally */
+   
+  }
+  .somos{
+    max-width: 100%;
+    
+  }
+  .sec{
+    margin: 20px;
+  }
+  header .telmail p {
+    font-size: 14px;
+  }
+}

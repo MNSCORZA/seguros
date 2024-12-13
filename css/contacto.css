@@ -1,0 +1,167 @@
+/* Estilos generales */
+body {
+    
+    background-color: #f2f2f2;
+  }
+  h1{
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    transform: translate(0%,50%);
+    
+  }
+ 
+  
+ 
+  form {
+    /* transform: translate(0%,30%); */
+    max-width: 400px;
+    margin: 155px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3),
+    8px 8px 16px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #c8c8c8, #a6a6a6, #666666);
+  }
+  
+  label{
+    display: block;
+    margin-bottom: 5px;
+    
+    font-family: "Raleway", sans-serif;
+  }
+  #query {
+    display: block;
+    margin-bottom: 10px;
+   
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    
+  }
+  
+  input[type="text"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #25D366;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #075E54;
+  }
+
+  @media screen and (max-width: 1980px) {
+    .container {
+        padding: 0 10px;
+        
+    }
+
+    .logo_empresa img {
+        width: 80%;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    header .telmail p {
+        font-size: 14px;
+    }
+   
+   
+}
+
+@media screen and (max-width: 992px) {
+   
+
+    .nav-item {
+        margin: 5px 0;
+    }
+
+    form input, form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+    }
+
+    footer ul {
+        flex-direction: column;
+    }
+    
+
+    footer ul li {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .navbar-toggler {
+        display: block;
+    }
+    
+
+    .logo_empresa img {
+      margin-top: 10px;
+      max-width: 150px;
+        
+    }
+
+    header .telmail p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  footer p, footer ul li {
+      font-size: 12px; /* Reducir el tamaño de texto en pantallas pequeñas */
+  }
+
+  footer ul {
+      flex-direction:row;
+      align-items: center;
+  }
+
+  footer ul li {
+      margin-bottom: 5px;
+  }
+
+  .social-media {
+      justify-content: center;
+      padding: 0;
+  }
+
+  .social-media a {
+      margin: 0px;
+  }
+
+  form input, form textarea {
+      padding: 8px;
+  }
+
+  .footer {
+      text-align: center;
+  }
+
+  .footer p {
+      font-size: 14px;
+  }
+}
+.logo_empresa img {
+    max-width: 120px;
+  }
+  
